@@ -22,7 +22,7 @@ class App extends Component {
     axios({
       url: baseUrl,
       method: 'post',
-      data: { query: GET_POSTS}
+      data: { query: GET_POSTS }
     })
     .then((result) => {
       console.log(result.data)
