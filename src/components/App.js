@@ -28,8 +28,6 @@ class App extends Component {
     return (
       <div className="App">
         <h1>GraphQL API Front</h1>
-
-        {console.log(this.state.id)}
         <GetPosts handleRequest={this.handleRequest} />
         <GetPost
           handleChange={this.handleChange}
