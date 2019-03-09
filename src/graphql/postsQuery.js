@@ -3,6 +3,10 @@ const postsQuery = `{
      id
      title
      description
+     comments {
+       id
+       content
+     }
    }
  }`;
 
