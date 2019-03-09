@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>GraphQL Front</h2>
+        <h1>GraphQL API Front</h1>
       </div>
     );
   }
